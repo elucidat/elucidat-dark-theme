@@ -36,11 +36,13 @@
 		"resize": true,
 		"inset": true
     },
+    "#text_wrapper": {
+    	"resize": true
+    },
     "#text_content": {
 		"text": {
 			"html": true
 		},
-    	"resize": true,
 		"inset": true
     }
 

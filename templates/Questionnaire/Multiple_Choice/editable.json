@@ -10,9 +10,11 @@
 		},
 		"inset": true
 	},
-	"#questionnaire_wrapper":{
-		"add-option": true,
+	"#text_wrapper": {
 		"resize": true
+	},
+	"#questionnaire_wrapper":{
+		"add-option": true
 	},
 	".answer": {
 		"answer": true,
@@ -46,9 +48,16 @@
 	},
 	"#save_button": {
 		"animation":true,
-		"text": true,
+		"move": true,
 		"color": true,
 		"resize": true,
+		"border": true,
+		"font": {
+			"size": true
+		}
+	},
+	"#save_button span": {
+		"text": true,
 		"font": {
 			"size": true
 		}

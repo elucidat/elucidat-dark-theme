@@ -17,8 +17,9 @@
 		},
 		"text": true
 	},
-	"#project_navigation": {
-		"color":true
+	"#project_navigation .scroller": {
+		"color":true,
+		"inset":true
 	},
 	"#header": {
 		"color":true
@@ -27,6 +28,7 @@
 		"text": true,
 		"font": {
 			"size": true
-		}
+		},
+		"color":true
 	}
 }

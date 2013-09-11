@@ -9,9 +9,12 @@
 		},
 		"inset": true
 	},
-
-	"#text_intro": {
+	".text_box": {
+		"image": {
+			"show-placeholder": false
+		},
 		"animation": true,
+		"delete": true,
 		"resize": true,
 		"move": true,
 		"color": true,
@@ -21,11 +24,13 @@
 		},
 		"border": true
 	},
-	"#text_content": {
+	".text_content": {
 		"text": {
 			"html": true
-		}
+		},
+		"inset":true
 	},
+
 	".modal": {
 		"color": true
 	},
@@ -39,7 +44,6 @@
 		"text": {
 			"html": true
 		},
-		"inset":true,
 		"resize": true
 	},
 	".answer": {
@@ -59,10 +63,16 @@
 	},
 	"#save_button": {
 		"animation":true,
-		"text": true,
 		"move": true,
 		"color": true,
 		"resize": true,
+		"border": true,
+		"font": {
+			"size": true
+		},
+	},
+	"#save_button span": {
+		"text": true,
 		"font": {
 			"size": true
 		}
