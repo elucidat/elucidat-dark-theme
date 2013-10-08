@@ -1,7 +1,4 @@
 
-#background {
-    padding-top:20px;
-}
 
 #video {
     width:640px;
@@ -33,6 +30,9 @@ div.video_player {
 
 #text_content, #transcript_link {
     padding: 16px 20px 6px;
+}
+#text_before {
+    padding: 0 20px;
 }
 #transcript_link {
     padding-top:0;

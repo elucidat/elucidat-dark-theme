@@ -161,18 +161,16 @@ a:hover {
     width: 300px;
     bottom: -13px;
     height: 30px;
-    left: 13px;
+    left: 4px;
     position: absolute;
 
 }
+
 h1 {
     display: inline-block;
     font-size: 1.4em;
     line-height: 1em;
 }
-
-
-
 
 
 #page_title {
@@ -205,9 +203,6 @@ h1 {
 	cursor: pointer;
 	padding:8px 8px 3px 5px;
 }
-
-
-
 
 .answer .input {
 	background-position: -306px 2px;
