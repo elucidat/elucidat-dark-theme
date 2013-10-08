@@ -8,8 +8,7 @@
 		"image":{
 			"show-placeholder": false
 		},
-		"color":true,
-		"inset":true
+		"color":true
 	},
 	"h1": {
 		"font": {
