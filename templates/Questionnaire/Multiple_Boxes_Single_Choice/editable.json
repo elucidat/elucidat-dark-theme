@@ -47,6 +47,9 @@
 		"resize": true
 	},
 	".answer": {
+		"image": {
+			"show-placeholder": false
+		},
 		"answer": true,
 		"animation": true,
 		"delete": true,
