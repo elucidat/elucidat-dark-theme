@@ -22,7 +22,7 @@
     padding-right: 0px;
 }
 
-a {
+a, a span {
 	color:#fff;
 	text-decoration: underline;
 }
